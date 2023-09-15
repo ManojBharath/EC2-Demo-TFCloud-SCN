@@ -1,10 +1,10 @@
 ami_id = "ami-0899663faf239dd8a"
-instance_type = "t2.micro"
-availability_zone = "ap-south-1b"
+instance_type = "t2.medium"
+availability_zone = "ap-south-1c"
 key_name = "learningone"
-instance_count = 2 
+instance_count = 5 
 instance_tags = {
-    Name = "webServer",
+    Name = "webServers - [count.index]",
     ManagedBy = "TF-Cloud"
 } 
 region = "ap-south-1"
