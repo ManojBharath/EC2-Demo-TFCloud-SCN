@@ -1,6 +1,6 @@
 ami_id = "ami-0899663faf239dd8a"
 instance_type = "t2.medium"
-availability_zone = "ap-south-1c"
+availability_zone = "ap-south-1a"
 key_name = "learningone"
 instance_count = 5 
 instance_tags = {
