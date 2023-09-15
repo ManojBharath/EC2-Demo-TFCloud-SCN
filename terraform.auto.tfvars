@@ -4,7 +4,9 @@ availability_zone = "ap-south-1a"
 key_name = "learningone"
 instance_count = 3 
 instance_tags = {
-    Name = "webServers - [count.index + 1]"
-    ManagedBy = "TF-Cloud"
+    "Name" = "webServers-${count.index + 1}"
+    "ManagedBy" = "Terraform-Cloud"
+    "Environment" = "Test-Cloud"
+    "Lead" = "ManojBharath"
 } 
 region = "ap-south-1"
